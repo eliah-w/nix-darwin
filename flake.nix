@@ -278,7 +278,7 @@
               { name = "izotope-product-portal"; greedy = true; }
               { name = "jetbrains-toolbox"; greedy = true; }
               { name = "karabiner-elements"; greedy = true; }
-              { name = "keybase"; greedy = true; }
+              # { name = "keybase"; greedy = true; }
               #{ name = "kitty"; greedy = true; }
               { name = "knockknock"; greedy = true; }
               { name = "lm-studio"; greedy = true; }
