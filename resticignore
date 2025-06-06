@@ -1,0 +1,9 @@
+Library/Caches
+Library/Metadata/CoreSpotlight/NSFileProtectionComplete/index.spotlightV3/tmp.spotlight.loc
+.Trash
+.cache
+**/cache*
+**/Cache*
+**/node_modules
+download_temp
+roms
