@@ -254,7 +254,6 @@
               { name = "android-platform-tools"; greedy = true; }
               { name = "bartender"; greedy = true; }
               { name = "battle-net"; greedy = true; }
-              { name = "beekeeper-studio"; greedy = true; }
               { name = "betterdiscord-installer"; greedy = true; }
               { name = "betterdisplay"; greedy = true; }
               { name = "blockblock"; greedy = true; }
@@ -271,7 +270,7 @@
               { name = "gimp"; greedy = true; }
               { name = "google-assistant"; greedy = true; }
               { name = "google-chrome"; greedy = true; }
-              { name = "google-chrome@canary"; greedy = true; }
+              # { name = "google-chrome@canary"; greedy = true; }
               { name = "hstracker"; greedy = true; }
               { name = "istat-menus"; greedy = true; }
               #{ name = "iterm2"; greedy = true; }
