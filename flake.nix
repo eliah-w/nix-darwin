@@ -136,6 +136,7 @@
 
           # Create /etc/zshrc that loads the nix-darwin environment.
           programs.zsh.enable = true;
+          programs.zsh.enableAutosuggestions = true;
           programs.zsh.enableFzfCompletion = true;
           programs.zsh.enableFzfGit = true;
           programs.zsh.enableSyntaxHighlighting = true;
@@ -417,15 +418,6 @@
               GOMAXPROCS = "4";
             };
             plugins = [
-              {
-                name = "zsh-autosuggestions";
-                src = pkgs.fetchFromGitHub {
-                  owner = "zsh-users";
-                  repo = "zsh-autosuggestions";
-                  rev = "v0.7.1";
-                  sha256 = "sha256-vpTyYq9ZgfgdDsWzjxVAE7FZH4MALMNZIFyEOBLm5Qo=";
-                };
-              }
               {
                 name = "fzf-tab";
                 src = pkgs.fetchFromGitHub {
