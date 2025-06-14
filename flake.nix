@@ -277,6 +277,7 @@
               #{ name = "iterm2"; greedy = true; }
               { name = "izotope-product-portal"; greedy = true; }
               { name = "jetbrains-toolbox"; greedy = true; }
+              { name = "jordanbaird-ice"; greedy = true; }
               { name = "karabiner-elements"; greedy = true; }
               # { name = "keybase"; greedy = true; }
               #{ name = "kitty"; greedy = true; }
@@ -294,7 +295,7 @@
               { name = "numi"; greedy = true; }
               { name = "obsidian"; greedy = true; }
               #{ name = "ollama"; greedy = true; }
-              { name = "onyx"; greedy = true; }
+              # { name = "onyx"; greedy = true; }
               #{ name = "postman"; greedy = true; }
               { name = "proxyman"; greedy = true; }
               { name = "raycast"; greedy = true; }
@@ -366,7 +367,7 @@
               enable = true;
               custom = ".zsh/";
               extraConfig = ''
-                PATH="~/.spicetify:~/.config/composer/vendor/bin:/nix/var/nix/profiles/default/bin:~/.nix-profile/bin:/run/current-system/sw/bin:/opt/homebrew/bin:$PATH"
+                PATH="~/.local/bin:~/.spicetify:~/.config/composer/vendor/bin:/nix/var/nix/profiles/default/bin:~/.nix-profile/bin:/run/current-system/sw/bin:/opt/homebrew/bin:$PATH"
                 fastfetch
                 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
                 # Initialization code that may require console input (password prompts, [y/n]
