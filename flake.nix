@@ -179,6 +179,7 @@
             pkgs.lazygit
             pkgs.luajit
             pkgs.luarocks
+            pkgs.mdcat
             pkgs.neovim
             pkgs.ninja
             pkgs.nixd
@@ -227,6 +228,7 @@
             taps = [ ];
             brews = [
               "docker-compose"
+              "lesspipe"
               "mas"
               "nvm"
               "spicetify-cli"
@@ -393,6 +395,10 @@
                 . "$HOME/.cargo/env"
 
                 eval "$(zoxide init zsh --cmd cd)"
+
+                export LESSOPEN="|/opt/homebrew/bin/lesspipe.sh %s"
+                export FZF_PREVIEW_ADVANCED=true
+                export FZF_PREVIEW_WINDOW="100%"
 
                 unset ZSH_AUTOSUGGEST_USE_ASYNC
                                 
