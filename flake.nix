@@ -252,7 +252,7 @@
             };
             casks = [
               { name = "ableton-live-suite"; greedy = true; }
-              { name = "aldente"; greedy = true; }
+              # { name = "aldente"; greedy = true; }
               { name = "android-file-transfer"; greedy = true; }
               { name = "android-platform-tools"; greedy = true; }
               { name = "bartender"; greedy = true; }
